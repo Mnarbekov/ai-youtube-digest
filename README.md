@@ -50,3 +50,8 @@ Copy `.env.example` to `.env` for local experimentation. Do not commit `.env` or
 ## Status
 
 Local demo ready for review. TODO: before publishing, add a license if desired and re-run `python scripts\check_sanitization.py`.
+
+## Read more
+
+- **Story behind it** — *Medium*: [Proving AI's value to my wife: I built a weekly YouTube digest](https://medium.com/@mikhail.narbekov/proving-ais-value-to-my-wife-i-built-a-weekly-youtube-digest-d3a797b9f69b)
+- **More projects** — *Personal site*: coming soon (will link here when live)
