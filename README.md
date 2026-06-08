@@ -54,4 +54,4 @@ Local demo ready for review. TODO: before publishing, add a license if desired a
 ## Read more
 
 - **Story behind it** — *Medium*: [Proving AI's value to my wife: I built a weekly YouTube digest](https://medium.com/@mikhail.narbekov/proving-ais-value-to-my-wife-i-built-a-weekly-youtube-digest-d3a797b9f69b)
-- **More projects** — *Personal site*: coming soon (will link here when live)
+- **More projects** — *Personal site*: [www.mikhailnarbekov.com](https://www.mikhailnarbekov.com)
