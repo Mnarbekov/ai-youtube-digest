@@ -55,15 +55,9 @@ This project shows that I can:
 - handle privacy and copyright boundaries carefully; and
 - use AI as a practical assistant, not a magic trick.
 
-## Screenshot placeholders
+## Public assets
 
-- `[Screenshot placeholder: example weekly digest email overview]`
-- `[Screenshot placeholder: one video card with thumbnail, title, link, and three bullet summary]`
-- `[Screenshot placeholder: demo configuration or channel list using fake data]`
-
-## GitHub link
-
-`[GitHub repository link placeholder]`
+Public screenshots and diagrams should use synthetic data only. The repository README carries the live project links once they are available.
 
 ## Privacy note
 

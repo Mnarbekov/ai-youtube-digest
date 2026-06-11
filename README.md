@@ -49,7 +49,7 @@ Copy `.env.example` to `.env` for local experimentation. Do not commit `.env` or
 
 ## Status
 
-Local demo ready for review. TODO: before publishing, add a license if desired and re-run `python scripts\check_sanitization.py`.
+Public showcase demo is ready for review. Add a license before publication if desired.
 
 ## Read more
 
