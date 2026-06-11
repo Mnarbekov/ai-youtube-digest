@@ -29,4 +29,4 @@ python scripts\render_demo.py
 python scripts\check_sanitization.py
 ```
 
-The sanitizer may report expected placeholder/documentation words such as API key labels or references to excluded auth artifacts. Treat any real value, real recipient, real path, or generated run artifact as a blocker.
+The sanitizer may report expected demo/documentation words such as API key labels or references to excluded auth artifacts. Treat any real value, real recipient, real path, or generated run artifact as a blocker.

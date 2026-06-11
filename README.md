@@ -49,7 +49,7 @@ Copy `.env.example` to `.env` for local experimentation. Do not commit `.env` or
 
 ## Status
 
-Public showcase demo is ready for review. Add a license before publication if desired.
+This repository is a sanitized public showcase. It contains synthetic fixtures, an offline renderer demo, and documentation of the production pattern without private inputs, credentials, or run history.
 
 ## Read more
 
