@@ -2,11 +2,13 @@
 
 A simple weekly email that tells my wife and me which YouTube videos are actually worth our time, so we stop scrolling and start watching the good ones.
 
+This repo is a demo-safe version of the project. It uses made-up example data — no private channel lists, recipients, or history — but the code that builds the email is real and you can run it.
+
 ## Why I built it
 
 My wife follows a handful of channels but never has time to check which ones posted something good. The videos pile up, and choosing what to watch becomes its own little chore.
 
-So I built a small automation that does the checking for us. Once a week it looks at our favourite channels, finds the new long-form videos, reads what each one is about, and sends a short, clean email with the highlights. We open one email instead of digging through YouTube.
+So I built a small automation that does the checking for us. Once a week it looks at our favourite channels, finds the new long-form videos, reads what each one is about, and sends a short email with the highlights. We open one email instead of digging through YouTube.
 
 ## What it does
 
@@ -26,13 +28,28 @@ The weekly email, using demo content.
 
 The flow: check channels, get captions, summarise, build the email, send it.
 
-## How it works
+## Try the demo
 
-The automation runs on a schedule. It keeps a short list of channels, finds the latest videos, and uses AI to turn each one into three plain bullet points. Those summaries are placed into a tidy email layout with thumbnails and links, then sent. Nothing needs to be checked by hand.
+The demo runs offline from example data and writes the email to `examples/demo-digest.html`:
+
+```powershell
+python scripts/render_demo.py
+```
+
+Then open `examples/demo-digest.html` in a browser to see the result.
+
+## What's in this repo
+
+- `src/ai_youtube_digest/` — the code that turns summarised videos into the email.
+- `scripts/render_demo.py` — runs the offline demo, no internet needed.
+- `fixtures/` — example channel, video, and summary data (all made up).
+- `examples/demo-digest.html` — a rendered example email.
+- `docs/architecture.md` — a short walkthrough of how the pieces fit together.
+- `*.example` files — example config so you can see the inputs without any private values.
 
 ## Privacy
 
-This public repo uses demo content only. Our real channel list, email address, and send history stay private and are not included here.
+This is a demo-safe version. Our real channel list, email address, summaries, and send history stay private and are not in this repo. The example data is invented.
 
 ## Built with AI assistance
 
