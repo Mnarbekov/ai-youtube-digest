@@ -1,9 +1,0 @@
-# Example channel list for the public demo.
-# One channel per line. Lines starting with # are ignored.
-# Accepted forms:
-#   @ExampleChannel | Human-friendly label
-#   https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxx | Label
-
-@LongFormScienceDemo | Longform Science Demo
-@PracticalLeadershipDemo | Practical Leadership Demo
-@HealthyKitchenDemo | Healthy Kitchen Demo
